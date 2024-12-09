@@ -1,0 +1,107 @@
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1080px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, select {
+    padding: 15px; 
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    font-size: 16px;
+}
+
+button {
+    padding: 15px;
+    background-color: #990cdb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; 
+    transition: background-color 0.3s;
+    font-family: Arial, sans-serif;
+    
+}
+
+button:hover {
+    cursor: pointer;  
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; 
+}
+
+th, td {
+    padding: 12px; 
+    text-align: left;
+    border-bottom: 1px solid #dee2e6; 
+    
+    white-space: nowrap; /* Impede quebra de linha dentro das células */
+}
+
+th {
+    background-color: #990cdb;
+    color: white;
+    padding: 15px; 
+    text-align: left; 
+    border: none;
+}
+
+tr:hover {
+    background-color: #f1f1f1; 
+}
+
+
+td button:hover {
+    background-color: none;
+}
+
+@media (max-width: 600px) {
+    button {
+        font-size: 12px; 
+        padding: 6px;
+    }
+}
+
+.acoes {
+    display: flex; 
+    gap: 10px; 
+}
+
+.acao {
+    background: none;
+    border: none;
+    color: rgba(0, 0, 0, 0.877); 
+    font-size: 20px; 
+    cursor: pointer; 
+    padding: 0; 
+    transition: transform 0.2s; 
+}
+
+.acao:hover {
+    transform: scale(1.2); 
+}
+
